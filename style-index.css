@@ -1,13 +1,14 @@
-/* ===== 1. IMPORT FONT ===== */
+/* ===== IMPORT FONT ===== */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-/* ===== 2. VARIABLE WARNA E-SIDIK ===== */
+/* ===== VARIABLE WARNA E-SIDIK ===== */
 :root {
   --biru-esidik: #0d6efd;
   --biru-muda: #0dcaf0;
   --bg-abu: #f8f9fa;
   --teks-hitam: #212529;
   --teks-muted: #6c757d;
-} /* ===== 3. GLOBAL ===== */
+} 
+/* ===== GLOBAL ===== */
 html {
   scroll-behavior: smooth;
 }
@@ -16,7 +17,8 @@ body {
   background-color: #ffffff;
   color: var(--teks-hitam);
   margin: 0;
-} /* ===== 4. NAVBAR ===== */
+} 
+/* ===== NAVBAR ===== */
 .navbar-brand {
   letter-spacing: 0.5px;
 }
@@ -24,8 +26,8 @@ body {
 .navbar .nav-link.active {
   color: var(--biru-esidik) !important;
   font-weight: 500;
-} /* ===== 5. HERO & CTA
-===== */
+} 
+/* ===== HERO & CTA ===== */
 .bg-primary {
   background: linear-gradient(
     90deg,
@@ -35,7 +37,8 @@ body {
 }
 .bg-light {
   background-color: var(--bg-abu) !important;
-} /* ===== 6. CARD - KEUNGGULAN & FITUR ===== */
+} 
+/* ===== CARD - KEUNGGULAN & FITUR ===== */
 .card {
   transition: all 0.3s ease;
   border: none !important;
@@ -44,10 +47,11 @@ body {
   transform: translateY(-6px);
   box-shadow: 0 10px 20px rgba(13, 110, 253, 0.15) !important;
 }
-/* ===== 7. LINGKARAN ANGKA 1,2,3,4 ===== */
+/* ===== LINGKARAN ANGKA 1,2,3,4 ===== */
 .rounded-circle {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-} /* ===== 8. TOMBOL ===== */
+} 
+/* ===== TOMBOL ===== */
 .btn-lg {
   border-radius: 25px;
   padding: 12px 30px;
@@ -72,26 +76,29 @@ body {
 }
 .btn-outline-light:hover {
   background-color: rgba(255, 255, 255, 0.1);
-} /* ===== 9. TEXT COLORS ===== */
+} 
+/* ===== TEXT COLORS ===== */
 .text-primary {
   color: var(--biru-esidik) !important;
 }
 .text-muted {
   color: var(--teks-muted) !important;
-} /* ===== 10. SECTION TENTANG ===== */
+} 
+/* ===== SECTION TENTANG ===== */
 .list-unstyled li {
   line-height: 1.8;
 }
 .bi-shield-lock-fill {
   opacity: 0.1 !important;
-} /* =====
-11. FOOTER ===== */
+} 
+/* ===== FOOTER ===== */
 footer a {
   transition: all 0.2s ease;
 }
 footer a:hover {
   color: var(--biru-esidik) !important;
-} /* ===== 12. RESPONSIVE ===== */
+} 
+/* ===== RESPONSIVE ===== */
 @media (max-width: 991px) {
   .navbar-nav .btn {
     margin-top: 0.5rem;
